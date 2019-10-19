@@ -185,15 +185,7 @@ if args.test:
     print("Test build detected. Exiting...")
     exit()
 
-header = """
-    ____             __     _____       _     __         
-   / __ \____  _____/ /_   / ___/____  (_)___/ /__  _____
-  / /_/ / __ \/ ___/ __/   \__ \/ __ \/ / __  / _ \/ ___/
- / ____/ /_/ / /  / /_    ___/ / /_/ / / /_/ /  __/ /    
-/_/    \____/_/   \__/   /____/ .___/_/\__,_/\___/_/     
-                             /_/                      
-                                                                                 
-"""
+header = "PORT SPIDER"
 
 try:
     print(GREEN + header + "                                             v1.0 by David Schütz \n" + END)
