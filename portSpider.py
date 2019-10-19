@@ -195,9 +195,9 @@ header = """
 """
 
 try:
-    print(GREEN + header + "                                             v1.0 by David Schütz (@xdavidhu)\n" + END)
+    print(GREEN + header + "                                             v1.0 by David Schütz \n" + END)
 except:
-    print(GREEN + header + "                                                            v1.0 by @xdavidhu\n" + END)
+    print(GREEN + header + "                                                            v1.0 by David Schütz\n" + END)
 
 moduleList = ""
 i = 0
