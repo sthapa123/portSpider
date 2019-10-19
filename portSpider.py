@@ -188,9 +188,9 @@ if args.test:
 header = "PORT SPIDER"
 
 try:
-    print(GREEN + header + "                                             v1.0 by David Schütz \n" + END)
+    print(header + " v1.0 by David Schutz \n")
 except:
-    print(GREEN + header + "                                                            v1.0 by David Schütz\n" + END)
+    print(header + " v1.0 by David Schutz\n")
 
 moduleList = ""
 i = 0
